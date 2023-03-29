@@ -1,0 +1,8 @@
+// Generate a random number between 0 and 1
+let randomNumber = Math.round(Math.random());
+
+// Use the random number to determine the result of the coin flip
+let result = randomNumber === 0 ? "Heads" : "Tails";
+
+// Output the result of the coin flip
+console.log(result);
